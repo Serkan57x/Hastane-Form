@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Profesyonel bir web sitesi tasarımı. Şık ve modern görünüme sahip slider, içerik bölümü ve duyurular.">
+    <meta name="author" content="Sizin İsminiz">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Profesyonel Web Sitesi</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header id="banner">
+        <div id="reklam">
+            <h1>KARACA HASTANESİNE HOŞ GELDİNİZ</h1>
+            <p>İSTANBUL/BAKIRKÖY 0532-355-45-45</p>
+        </div>
+    </header>
+
+    <!-- Navigasyon Menüsü -->
+    <nav id="menu">
+        <ul>
+            <li><a href="#slider"><i class="fa-solid fa-house"></i>Ana Sayfa</a></li>
+            <li><a href="#icerik"><i class="fa-solid fa-notes-medical"></i>Hakkımızda</a></li>
+            <li><a href="#randevu"><i class="fa-solid fa-calendar-days"></i>Randevu</a></li>
+            <li><a href="#footer"><i class="fa-solid fa-square-phone"></i>İletişim</a></li>
+        </ul>
+    </nav>
+
+    <!-- Slider -->
+    <section id="slider">
+        <div id="resim1" class="slider-resim"></div>
+        <div id="resim2" class="slider-resim"></div>
+        <div id="resim3" class="slider-resim"></div>
+        <button class="ileri" aria-label="İleriye Geç">></button>
+        <button class="geri" aria-label="Geriye Git"><</button>
+        <ul class="slider-kutucuklar">
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </section>
+
+    <!-- İçerik -->
+    <main id="icerik">
+        <section class="icerik duyuru">
+            <h2>Duyurular</h2>
+            <h3>Yeni Özellikler</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.</p>
+        </section>
+        <section class="icerik login">
+            <h2>Giriş Yap</h2>
+            <form id="login">
+                <label for="username">Kullanıcı Adı:</label>
+                <input type="text" id="username" name="username" placeholder="Kullanıcı adı" required>
+                
+                <label for="password">Şifre:</label>
+                <input type="password" id="password" name="password" placeholder="Şifre" required>
+                
+                <button type="submit" id="btn">Giriş Yap</button>
+            </form>
+        </section>
+
+        <section class="icerik duyuru">
+            <h2>Blog</h2>
+            <h3>Yeni Özellikler</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.</p>
+        </section>
+        <section class="icerik login">
+            <h2>Randevu Robotu</h2>
+            <form id="login">
+                <label for="username">Kullanıcı Adı:</label>
+                <input type="text" id="username" name="username" placeholder="Kullanıcı adı" required>
+                
+                <label for="password">Şifre:</label>
+                <input type="password" id="password" name="password" placeholder="Şifre" required>
+                
+                <button type="submit" id="btn">Giriş Yap</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p>&copy; 2024 Profesyonel Web Sitesi Tasarımı. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="slider.js"></script>
+</body>
+</html>

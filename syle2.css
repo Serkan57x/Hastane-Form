@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f7f9fb;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+#duyuru-kapsayici {
+    width: 90%;
+    max-width: 800px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#duyuru-baslik {
+    background-color: #4b6587;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#duyuru-baslik h1 {
+    font-size: 24px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#duyurular {
+    padding: 20px;
+}
+
+.duyuru {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 0;
+}
+
+.duyuru h2 {
+    color: #4b6587;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.duyuru p {
+    font-size: 16px;
+    color: #666;
+}
+
+.duyuru .tarih {
+    display: block;
+    font-size: 14px;
+    color: #888;
+    margin-top: 8px;
+    text-align: right;
+}
+
+.duyuru:last-child {
+    border-bottom: none;
+}
